@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  .panel
+    h1 #{count} messages
+    for post in posts
+      include item
+
+  form(id='submit')
+    input(type='text', name='msg')
+    input(type='submit', value='POST')
+
+  form(action='/upload', method='post', enctype='multipart/form-data')
+    input(type='file', name='imgs', multiple='')
+    input(type='submit', value='Upload')
+

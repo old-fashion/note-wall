@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  - if(images.length)
+  ul
+    - images.forEach(function(image) {
+      li
+        img(src='/uploaded/'+image.name)
+        p= image.size
+    - })

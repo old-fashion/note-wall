@@ -1,0 +1,12 @@
+{
+    "name": "NOTE-WALL"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "express": "2.5.8"
+    , "jade": ">= 0.0.1"
+    , "util": ">= 0.4.0"
+    , "imagemagick": ">= 0.1.0"
+  }
+}
+

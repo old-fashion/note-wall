@@ -1,0 +1,64 @@
+body {
+  padding: 10px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: white;
+  background: url(/images/wood.jpg) repeat;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.panel {
+  margin: 0px;
+  padding: 0px;
+}
+
+.note {
+  margin: 0px;
+  padding: 50px;
+  position: relative;
+  color: #606060;
+  width: 260px;
+  height: 175px;
+  background: url(/images/note.png) no-repeat;
+  float: left;
+  /*
+  transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg); 
+  -webkit-transform: rotate(-2deg); 
+  -o-transform: rotate(-2deg); 
+  -moz-transform: rotate(-2deg);
+  */
+}
+
+.photo {
+  margin: 15px 5px 1px 5px;
+  position: relative;
+  width: 220px;
+  height: 260px;
+  float: left;
+  /*
+  transform: rotate(5deg);
+  -ms-transform: rotate(5deg); 
+  -webkit-transform: rotate(5deg); 
+  -o-transform: rotate(5deg); 
+  -moz-transform: rotate(5deg); 
+  */
+}
+
+.photo img {
+  width: 200px;
+  height: 200px;
+}
+
+.photo span {
+  width: 220px;
+  height: 260px;
+  position: absolute;
+  top: -18px;
+  left: -10px;
+  background: url(/images/polaroids.png) no-repeat;
+}
+

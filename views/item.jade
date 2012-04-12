@@ -1,0 +1,9 @@
+case post.type
+  when 'text'
+    .note 
+      #{post.msg}
+  when 'image'
+    .photo
+      a(class='photo_group', rel='group1', href='#{post.msg}', title='#{post.title}')
+        span
+        img(src='#{post.msg}')
